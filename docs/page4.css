@@ -1,0 +1,140 @@
+.container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: white;
+}
+
+.header-image {
+    width: 1440px;
+    height: 693px;
+}
+
+.center-text-large, .center-text-small {
+    width: 174px;
+    height: 57px;
+    position: absolute;
+    left: 669px;
+    top: 196px;
+    color: black;
+    font-size: 32px;
+    font-family: Inter;
+    font-weight: 400;
+}
+
+.logo {
+    width: 343px;
+    height: 328px;
+    position: absolute;
+    left: -12px;
+    top: 0px;
+}
+
+.welcome-text {
+    width: 807px;
+    height: 103px;
+    position: absolute;
+    left: 82px;
+    top: 522px;
+    color: #342614;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+}
+
+.about-header {
+    width: 563px;
+    height: 53px;
+    position: absolute;
+    left: 82px;
+    top: 436px;
+    text-align: center;
+    color: #EDE9E3;
+    font-size: 48px;
+    font-family: Inter;
+    font-weight: 700;
+}
+
+.menu {
+    width: 952px;
+    height: 27px;
+    position: absolute;
+    left: 327px;
+    top: 196px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    font-family: Inter;
+    font-weight: 400;
+    color: black;
+}
+
+.vision-text, .mission-text {
+    width: 694px;
+    height: 370px;
+    position: absolute;
+    left: 82px;
+    top: 1068px;
+    text-align: justify;
+    color: black;
+    font-size: 29px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 36.25px;
+}
+
+.vision-title, .mission-title, .offer-title {
+    width: 332px;
+    height: 68px;
+    position: absolute;
+    text-align: center;
+    color: #AC8361;
+    font-size: 48px;
+    font-family: Inter;
+    font-weight: 700;
+}
+
+.gallery-image, .about-image {
+    width: 597px;
+    height: 639px;
+    position: absolute;
+    top: 2256px;
+}
+
+.gallery-text, .artist-text {
+    width: 574px;
+    height: 271px;
+    text-align: center;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+}
+
+.rotated-image, .about-section-image {
+    width: 484px;
+    height: 536px;
+    border-radius: 725px 286px 256px 187px;
+    position: absolute;
+    top: 860px;
+}
+
+.footer-background {
+    width: 1440px;
+    height: 534px;
+    position: absolute;
+    background: #F0EBE4;
+}
+
+.footer-logo, .search-bar, .contact-info {
+    position: absolute;
+    font-family: DM Sans;
+    color: #4B4949;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer-link {
+    font-size: 16px;
+    color: #4B4B4B;
+    text-align: center;
+}

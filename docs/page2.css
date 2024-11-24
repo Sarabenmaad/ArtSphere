@@ -1,0 +1,241 @@
+body, h1, h2, p, a, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+.header {
+    background-color: #ffffff;
+    padding: 15px 30px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+.search-bar {
+    flex-grow: 1;
+    max-width: 1009px;
+    max-height: 52px;
+    margin: 0 2rem;
+  }
+  
+.search-bar input {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.search-bar input:focus {
+    border-color: #999;
+}
+
+.nav {
+    color: #000000;
+    align-items: center;
+    font-family: "Inter , sans-serif;-Regular", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    position: absolute;
+    left: 430px;
+    top: 250px;
+    display: flex;
+    gap: 9rem; 
+}
+
+.nav a {
+    font-family: 'Inter' , sans-serif;;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.3s ease;
+}
+
+.nav a:hover {
+    color: #c17c74;
+}
+
+.hero {
+    background: url('images/background.jpg') no-repeat center center/cover;
+    color: #ffffff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Artists Section */
+.artists {
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.artist-card {
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.artist-card:hover {
+    transform: translateY(-5px);
+}
+
+.artist-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.artist-info {
+    padding: 20px;
+}
+
+.artist-name {
+    font-size: 22px;
+    color: #c56b6b;
+    margin-bottom: 10px;
+}
+
+.artist-age {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.artist-info p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Footer */
+.footer {
+    background-color: #f4f4f4;
+    padding: 20px 30px;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.contact-info {
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-logo {
+    width: 120px;
+    margin-bottom: 15px;
+}
+
+.contact-details {
+    font-size: 14px;
+    color: #555;
+}
+
+.contact-details .contact-item {
+    margin-bottom: 10px;
+}
+
+.contact-form {
+    flex: 1;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-form span {
+    font-size: 14px;
+    color: #333;
+}
+
+.contact-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: #c56b6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #a34f4f;
+}
+
+/* Social Links */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.social-links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #c56b6b;
+}
+
+/* Footer Links */
+.footer-links {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    margin-top: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #666;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #c56b6b;
+}

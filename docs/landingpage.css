@@ -38,7 +38,6 @@ body {
   border: 1px solid #ddd;
   border-radius: 4px;
   font-size: 1rem;
-  
 }
 
 .nav {
@@ -76,7 +75,7 @@ body {
   flex-direction: column;
   padding: 20px;
   overflow: hidden;
-  background-image: url('images/header.jpg');
+  background-image: url('images/header\ 2.png');
   background-size: 100%; 
   background-position: center;
   background-repeat: no-repeat;

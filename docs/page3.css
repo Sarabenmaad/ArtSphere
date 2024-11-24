@@ -1,0 +1,293 @@
+  .main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 1440px;
+    height: 3571px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+  }
+  .flex-row {
+    position: relative;
+    width: 1323px;
+    height: 328px;
+    margin: 0 0 0 -12px;
+    z-index: 55;
+  }
+  .brown-beige-minimalist {
+    position: absolute;
+    width: 343px;
+    height: 328px;
+    top: 0;
+    left: 0;
+    background: url(images/header.jpg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 4;
+  }
+  .rectangle {
+    position: absolute;
+    width: 76.27%;
+    height: 15.85%;
+    top: 32.62%;
+    left: 23.73%;
+    background: #faf8f8;
+    z-index: 46;
+    border-radius: 5px;
+  }
+  .group-input {
+    position: absolute;
+    width: 1009px;
+    height: 52px;
+    top: 0;
+    left: 0;
+    background: transparent;
+    border: none;
+    z-index: 49;
+    outline: none;
+  }
+  .vector {
+    position: absolute;
+    width: 2.78%;
+    height: 50.99%;
+    top: 25%;
+    left: 2.5%;
+    background: url(./assets/images/2d64fb86-5f1c-485b-a585-f217a4e1a895.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 48;
+  }
+  .rechercher {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 42.31%;
+    top: 28.85%;
+    left: 8.82%;
+    color: #575757;
+    font-family: Inter, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.784px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 47;
+  }
+  .acceuil {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 27px;
+    top: 196px;
+    left: 337px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26.625px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 51;
+  }
+  .artistes {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 27px;
+    top: 196px;
+    left: 554px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26.625px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 55;
+  }
+  .text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 57px;
+    top: 196px;
+    left: 676px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.727px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 2;
+  }
+  .text-1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    width: 174px;
+    height: 57px;
+    top: 196px;
+    left: 676px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26.625px;
+    text-align: left;
+    z-index: 3;
+  }
+  .galerie {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 27px;
+    top: 196px;
+    left: 767px;
+    color: #b9684f;
+    font-family: Inter, var(--default-font-family);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26.625px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 53;
+  }
+  .a-propos {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 27px;
+    top: 196px;
+    left: 972px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26.625px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 52;
+  }
+  .contact {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 27px;
+    top: 196px;
+    left: 1199px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26.625px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 54;
+  }
+  .nos-oeuvres {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 401px;
+    height: 53px;
+    margin: 101px 0 0 92px;
+    color: #ede9e3;
+    font-family: Inter, var(--default-font-family);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 53px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 6;
+  }
+  .decouvrez-ensemble {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 807px;
+    height: 103px;
+    margin: 26px 0 0 149px;
+    color: #342614;
+    font-family: Inter, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.364px;
+    text-align: left;
+    z-index: 5;
+  }
+  .flex-row-e {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 951px;
+    height: 36px;
+    margin: 206px 0 0 246px;
+    z-index: 12;
+  }
+  .tous {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    width: 82px;
+    height: 36px;
+    color: #2c2219;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 8;
+  }
+  .peinture-abstraite {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    width: 283px;
+    height: 36px;
+    color: #c5a58b;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 9;
+  }
+  .sculpture {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;}
