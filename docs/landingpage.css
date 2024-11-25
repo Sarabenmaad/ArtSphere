@@ -100,7 +100,6 @@ body {
   text-align: center;
   color: #342614;
   word-wrap: break-word;
-
 }
 
 .btn {
@@ -114,7 +113,6 @@ body {
   font-size: 16px;
   width: 291px; height: 74px; background: #B9684F; border-radius: 19px
 }
-
 
 .section-title {
   font-family: 'Inter' , sans-serif;;
@@ -135,7 +133,6 @@ body {
   padding-bottom: 5px;
 }
 
-
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -146,7 +143,6 @@ body {
 
 .artwork {
   text-align: center;
-
   box-shadow: none;
 }
 

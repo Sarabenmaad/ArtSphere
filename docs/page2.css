@@ -1,9 +1,9 @@
-body, h1, h2, p, a, input, button {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
-}
+    font-family: 'Inter , sans-serif;', sans-serif;
+  }
 
 body {
     background-color: #f8f8f8;
@@ -34,7 +34,7 @@ body {
     max-height: 52px;
     margin: 0 2rem;
   }
-  
+
 .search-bar input {
     width: 100%;
     padding: 0.8rem 1rem;

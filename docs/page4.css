@@ -1,140 +1,121 @@
-.container {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    background: white;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
 }
+
+
+.header {
+    position: relative;
+    width: 100%;
+}
+
 
 .header-image {
     width: 1440px;
     height: 693px;
+    display: block;
 }
 
-.center-text-large, .center-text-small {
-    width: 174px;
-    height: 57px;
-    position: absolute;
-    left: 669px;
-    top: 196px;
-    color: black;
-    font-size: 32px;
-    font-family: Inter;
-    font-weight: 400;
-}
 
 .logo {
     width: 343px;
     height: 328px;
     position: absolute;
     left: -12px;
-    top: 0px;
+    top: 0;
 }
 
-.welcome-text {
-    width: 807px;
-    height: 103px;
-    position: absolute;
-    left: 82px;
-    top: 522px;
-    color: #342614;
-    font-size: 24px;
-    font-family: Inter;
-    font-weight: 400;
-}
-
-.about-header {
-    width: 563px;
-    height: 53px;
-    position: absolute;
-    left: 82px;
-    top: 436px;
-    text-align: center;
-    color: #EDE9E3;
-    font-size: 48px;
-    font-family: Inter;
-    font-weight: 700;
-}
-
-.menu {
-    width: 952px;
-    height: 27px;
-    position: absolute;
-    left: 327px;
-    top: 196px;
+.search-bar {
+    position: absolute; 
+    top: 112px; 
+    left: 800px; 
+    right: 220px;
+    transform: translateX(-50%); 
+    width: 1009px; 
+    height: 52px; 
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF; 
+    border: 1px solid #ccc; 
+    
+}
+.search-input {
+    width: 95%; 
+    height: 80%; 
+    padding: 5px 10px; 
+    font-size: 18px;
+    border: none; 
+    outline: none; 
+    background: transparent; 
+}
+
+.search-input::placeholder {
+    color: #585757;; 
+    font-style: italic; 
+}
+
+.nav {
+    color: #000000;
+    align-items: center;
+    font-family: "Inter , sans-serif;-Regular", sans-serif;
     font-size: 22px;
-    font-family: Inter;
+    font-weight: 300;
+    position: absolute;
+    left: 320px;
+    top: 201px;
+    display: flex;
+    gap: 9rem; 
+  }
+  
+  .nav a {
+    font-family: 'Inter' , sans-serif;;
     font-weight: 400;
-    color: black;
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.3s ease;
+  }
+  .nav a:hover {
+    color: #c17c74;
 }
 
-.vision-text, .mission-text {
-    width: 694px;
-    height: 370px;
-    position: absolute;
-    left: 82px;
-    top: 1068px;
-    text-align: justify;
-    color: black;
-    font-size: 29px;
-    font-family: Inter;
-    font-weight: 400;
-    line-height: 36.25px;
+
+.hero {
+    position: relative; 
+    height: 100%; 
+    background: transparent; 
 }
 
-.vision-title, .mission-title, .offer-title {
-    width: 332px;
-    height: 68px;
-    position: absolute;
-    text-align: center;
-    color: #AC8361;
+
+.hero-content {
+    position: absolute; 
+    left: 90px; 
+    top: -240px; 
+    width: 807px; 
+}
+
+
+.hero-content h1 {
+    color: #EDE9E3; 
     font-size: 48px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif; 
     font-weight: 700;
+    width: auto;
+    margin: 0; 
+    text-align: left; 
+    line-height: 1.1; 
+    white-space: nowrap; 
 }
 
-.gallery-image, .about-image {
-    width: 597px;
-    height: 639px;
-    position: absolute;
-    top: 2256px;
-}
 
-.gallery-text, .artist-text {
-    width: 574px;
-    height: 271px;
-    text-align: center;
-    font-size: 24px;
-    font-family: Inter;
-    font-weight: 400;
-}
-
-.rotated-image, .about-section-image {
-    width: 484px;
-    height: 536px;
-    border-radius: 725px 286px 256px 187px;
-    position: absolute;
-    top: 860px;
-}
-
-.footer-background {
-    width: 1440px;
-    height: 534px;
-    position: absolute;
-    background: #F0EBE4;
-}
-
-.footer-logo, .search-bar, .contact-info {
-    position: absolute;
-    font-family: DM Sans;
-    color: #4B4949;
-    font-size: 20px;
-    font-weight: 400;
-}
-
-.footer-link {
-    font-size: 16px;
-    color: #4B4B4B;
-    text-align: center;
+.hero-content p {
+    color: #342614; 
+    font-size: 24px; 
+    font-family: 'Inter', sans-serif;
+    font-weight: 400; 
+    width: 807px; 
+    margin-top: 20px; 
+    line-height: 1.6; 
+    word-wrap: break-word; 
 }
