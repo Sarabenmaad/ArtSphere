@@ -277,6 +277,8 @@ body {
 .rond {
     width: 90%;
     text-align: center;
+    
+ 
 }
 
 .rond .small-text {
@@ -285,8 +287,11 @@ body {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     line-height: 27.67px;
-    text-align: center;
+    margin-top: -10px;
     word-wrap: break-word;
+  position: relative;
+  top: -20px;
+  left: 15px;
 }
 
 .rond .highlighted-text {
@@ -300,8 +305,58 @@ body {
 .artistes img{
     width: 597px; 
     height: 639px; 
-    top: 2256px; 
-    position: absolute; 
-    left: 810px ;
+    top: 0px; 
+    position: relative; 
+    left: 0px ;
 
 }
+.artistes {
+    position: absolute;
+    top: 2256px;
+    left: 810px;
+}
+
+.artistes img {
+    width: 597px;
+    height: 639px;
+    position: relative;
+}
+
+.artistes-overlay {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    background: rgba(254, 245, 242, 0.69);
+    text-align: center;
+}
+
+.artistes-rond {
+    width: 90%;
+    text-align: center;
+}
+
+.artistes-rond .artistes-small-text {
+    color: black;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 27.67px;
+    margin-top: -10px;
+    word-wrap: break-word;
+    position: relative;
+    top: -20px;
+    left: 15px;
+}
+
+.artistes-rond .artistes-highlighted-text {
+    color: #B9684F;
+    font-size: 36px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 41.50px;
+    word-wrap: break-word;
+}
+
+  
