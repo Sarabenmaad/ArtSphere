@@ -11,11 +11,17 @@
     <header class="header">
         <div class="top-header">
             <img src="images/logo.png" alt="Artsphère Logo" class="logo">
+            <input type="checkbox" id="search-toggle" class="search-toggle" aria-label="Toggle search bar">
+            <label for="search-toggle" class="search-icon">
+                <img src="images/loupe-icon.png" alt="Search Icon">
+            </label>        
             <div class="search-bar">
                 <label for="search" class="sr-only"></label>
                 <input id="search" type="text" placeholder=" Rechercher...">
             </div>
         </div>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Toggle navigation">
+        <label for="menu-toggle" class="hamburger">&#9776;</label>
         <nav class="nav" role="navigation" aria-label="Main Navigation">
             <a href="index.html">Accueil</a>
             <a href="page2.html">Artistes</a>
