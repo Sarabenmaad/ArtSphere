@@ -71,6 +71,57 @@ body {
   color: #c17c74;
 }
 
+.hamburger {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  color: #000;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 10;
+    padding: 1rem 0;
+    border-top: 1px solid #ddd;
+  }
+
+  .nav a {
+    padding: 1rem;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .nav a:hover {
+    background-color: #f4f4f4;
+  }
+
+  .hamburger {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 20;
+  }
+
+  .menu-toggle:checked + .hamburger + .nav {
+    display: flex;
+  }
+}
+
 .hero-content {
   flex-grow: 1;
   display: flex;
