@@ -1,97 +1,109 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ArtSphere - Contemporary Art Gallery featuring various artists and exhibitions in Paris.">
     <title>ArtSphere - Galerie d'Art Contemporain</title>
     <link rel="stylesheet" href="landingpage.css">
 </head>
 <body>
     <header class="header">
-        <img src="images/logo.png" alt="Artosphère Logo" class="logo">
-        <div class="search-bar">
-            <input type="text" placeholder=" Rechercher...">
+        <div class="top-header">
+            <img src="images/logo.png" alt="Artsphère Logo" class="logo">
+            <div class="search-bar">
+                <label for="search" class="sr-only"></label>
+                <input id="search" type="text" placeholder=" Rechercher...">
+            </div>
         </div>
-        <nav class="nav">
+        <nav class="nav" role="navigation" aria-label="Main Navigation">
             <a href="index.html">Accueil</a>
             <a href="page2.html">Artistes</a>
             <a href="page3.html">Galerie</a>
-            <a href="pageapropos.html">À propos</a>
+            <a href="page4.html">À propos</a>
             <a href="#contact">Contact</a>
         </nav>
-    </header>
+        
 
-    <section class="hero">
         <div class="hero-content">
             <h1>L'art contemporain nous inspire, nous le partageons<br>avec vous.</h1>
             <a href="#" class="btn">Découvrir maintenant</a>
         </div>
-    </section>
-  
-    <h2 class="section-title"><span class="highlight">Explorez Nos </span>  Œuvres à la Une</h2>
-    <div class="gallery">
-        <div class="artwork">
-            <img src="images/image1.webp" alt="Géométrie Silencieuse">
-            <h3>"Géométrie Silencieuse"</h3>
-            <p>Lara Anderson</p>
-        </div>
-        <div class="artwork">
-            <img src="images/image2.png" alt="Chaos Chromatique">
-            <h3>"Chaos Chromatique"</h3>
-            <p>Hippolyte Cross</p>
-        </div>
-        <div class="artwork">
-            <img src="images/image3.jpg" alt="Oasis Abstrait">
-            <h3>"Oasis Abstrait"</h3>
-            <p>Zoé Dupont</p>
-        </div>
-    </div>
-    <div class="voir-plus">
-        <a href="#">Voir plus ></a>
-    </div>
-    <h2 class="section-title"><span class="highlight">Nos </span> Artistes</h2>
-    <div class="artists">
-        <div class="artist-card">
-            <div class="artist-name">LARA ANDERSON</div>
-            <img src="images/lara.png" alt="Artist">
-        </div>
-        <div class="artist-card">
-            <div class="artist-name">ZOÉ DUPONT</div>
-            <img src="images/zoe.png" alt="Artist">
-        </div>
-        <div class="artist-card">
-            <div class="artist-name">HIPPOLYTE CROSS</div>
-            <img src="images/hippo.png" alt="Artist">
-        </div>
-    </div>
-    <div class="voir-plus">
-        <a href="#">Voir plus ></a>
-    </div>
+    </header>
     
-    <h2 class="section-title">Expositions <span>à venir</span></h2>
-    <div class="exhibition-section">
-        <img src="images/image2.png" alt="Exhibition Banner" class="exhibition-banner">
-        <div class="exhibition-info">
-            <p>3 Janvier - Paris</p>
-            <p>123 Rue de l'université</p>
+    <section class="featured-works">
+        <h2 class="section-title"><span class="highlight">Explorez </span>  Nos Œuvres à la Une</h2>
+        <div class="voir-plus">
+            <a href="page3.html">Voir plus ></a>
         </div>
-    </div>
-    <div class="about">
+        <div class="gallery">   
+            <div class="artwork">
+                <img src="images/image1.webp" alt="Géométrie Silencieuse">
+                <h3>"Géométrie Silencieuse"</h3>
+                <p>Lara Anderson</p>
+            </div>
+            <div class="artwork">
+                <img src="images/image2.png" alt="Chaos Chromatique">
+                <h3>"Chaos Chromatique"</h3>
+                <p>Hippolyte Cross</p>
+            </div>
+            <div class="artwork">
+                <img src="images/image3.jpg" alt="Oasis Abstrait">
+                <h3>"Oasis Abstrait"</h3>
+                <p>Zoé Dupont</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="artists">
+        <h2 class="section-title"><span class="highlight">Nos </span> Artistes</h2>
+        <div class="voir-plus">
+            <a href="page2.html">Voir plus ></a>
+        </div>
+        <div class="artists-list">
+            <div class="artist-card">
+                <div class="artist-name">LARA ANDERSON</div>
+                <img src="images/lara.png" alt="Lara Anderson, Artist">
+            </div>
+            <div class="artist-card">
+                <div class="artist-name">ZOÉ DUPONT</div>
+                <img src="images/zoe.png" alt="Zoé Dupont, Artist">
+            </div>
+            <div class="artist-card">
+                <div class="artist-name">HIPPOLYTE CROSS</div>
+                <img src="images/hippo.png" alt="Hippolyte Cross, Artist">
+            </div>
+        </div>
+    </section>
+
+    <section class="exhibitions">
+        <h2 class="section-title"><span class="highlight">Expositions </span> à venir</h2>
+        <div class="exhibition-section">
+            <img src="images/image2.png" alt="Exhibition Banner" class="exhibition-banner">
+            <div class="exhibition-info">
+                <p>3 Janvier - Paris</p>
+                <p>123 Rue de l'université</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
         <img src="images/galerie 1.png" alt="Gallery Interior">
-        <img src="images/galerie 2.png" alt="Exhibition image" class="exibition-image">
         <div class="about-content">
+            <img src="images/galerie 2.png" alt="Exhibition Image" class="exhibition-image">
             <h2>Qui sommes-nous ?</h2>
             <p>Passionnés d'art depuis notre enfance, nous sommes très enthousiastes à l'idée de partager avec vous l'art contemporain. C'est pourquoi nous avons créé ce site, rassemblant les meilleures œuvres et grandes découvertes à travers la ville.</p>
             <div class="voir-plus" style="text-align: left; padding: 20px 0;">
-                <a href="#">En savoir plus ></a>
+                <a href="page4.html">En savoir plus</a>
             </div>
         </div>
-    </div>
+    </section>
+
     <footer class="footer">
         <img src="images/logo.png" alt="Artosphère Logo" class="footer-logo">
         <div class="contact-info">
-            <p>+33 01 23 45 67 89</p>
-            <p>info@artosphere.fr</p>
+            <p>+33 09 54 63 72 86</p>
+            <p>Artsphereg@gmail.com</p>
             <p>123 Rue de la Galerie, Paris, France</p>
         </div>
     </footer>

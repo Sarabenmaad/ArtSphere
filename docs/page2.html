@@ -8,13 +8,12 @@
 </head>
 <body>*
     <header class="header">
-        <div class="header-top">
-            <img src="images/logo.png" alt="Artsphere Logo" class="logo">
-            <div class="search-bar">
-                <input type="text" placeholder="Rechercher...">
-            </div>
+        <img src="images/logo.png" alt="Artsphère Logo" class="logo">
+        <div class="search-bar">
+            <label for="search" class="sr-only"></label>
+            <input id="search" type="text" placeholder=" Rechercher...">
         </div>
-        <nav class="nav">
+        <nav class="nav" role="navigation" aria-label="Main Navigation">
             <a href="index.html">Accueil</a>
             <a href="page2.html">Artistes</a>
             <a href="page3.html">Galerie</a>
@@ -22,7 +21,6 @@
             <a href="#contact">Contact</a>
         </nav>
     </header>
-
     <section class="hero">
         <div class="hero-content">
             <h1>Nos Artistes</h1>
@@ -60,6 +58,12 @@
     </section>
 
     <footer class="footer">
+        <div class="contact-form">
+            <span>Si vous avez des questions, laissez-nous vous aider !</span>
+            <input type="text" placeholder="Écrivez votre message ici...">
+            <button>Envoyer</button>
+        </div>
+
         <div class="footer-content">
             <div class="contact-info">
                 <img src="images/Brown and Beige Minimalist Elegant Geometric Art Gallery Abstract Logo.png" alt="Artsphere Logo" class="footer-logo">
@@ -74,12 +78,6 @@
                         <span>123 Rue de l'université Paris, France</span>
                     </div>
                 </div>
-            </div>
-            
-            <div class="contact-form">
-                <span>Si vous avez des questions, laissez-nous vous aider !</span>
-                <input type="text" placeholder="Écrivez votre message ici...">
-                <button>Envoyer</button>
             </div>
         </div>
 

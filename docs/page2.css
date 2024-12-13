@@ -12,42 +12,37 @@ body {
 }
 
 .header {
-    background-color: #ffffff;
-    padding: 15px 30px;
-    border-bottom: 1px solid #e5e5e5;
-}
-
-.header-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-}
-
-.logo {
-    width: 150px;
-    height: auto;
-}
-
-.search-bar {
+    padding: 20px 40px;
+    z-index: 10;
+  }
+  
+  .logo {
+    width: 343px;
+    height: 328px;
+  }
+  
+  .search-bar {
     flex-grow: 1;
     max-width: 1009px;
     max-height: 52px;
     margin: 0 2rem;
   }
-
-.search-bar input {
+  
+  .search-bar input {
     width: 100%;
     padding: 0.8rem 1rem;
     border: 1px solid #ddd;
     border-radius: 4px;
     font-size: 1rem;
-}
-
-.search-bar input:focus {
-    border-color: #999;
-}
-
-.nav {
+  }
+  
+  .nav {
     color: #000000;
     align-items: center;
     font-family: "Inter , sans-serif;-Regular", sans-serif;
@@ -58,25 +53,33 @@ body {
     top: 250px;
     display: flex;
     gap: 9rem; 
-}
-
-.nav a {
+  }
+  
+  .nav a {
     font-family: 'Inter' , sans-serif;;
     font-weight: 400;
     text-decoration: none;
     color: #000000;
     transition: color 0.3s ease;
-}
-
-.nav a:hover {
+  }
+  .nav a:hover {
     color: #c17c74;
-}
+  }
 
 .hero {
-    background: url('images/background.jpg') no-repeat center center/cover;
-    color: #ffffff;
+    position: relative;
     text-align: center;
-    padding: 60px 20px;
+    height: 693px;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    background-image: url('images/header\ 2.png');
+    background-size: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
 }
 
 .hero h1 {
@@ -90,7 +93,6 @@ body {
     margin: 0 auto;
 }
 
-/* Artists Section */
 .artists {
     padding: 40px 20px;
     display: grid;
@@ -136,7 +138,6 @@ body {
     color: #555;
 }
 
-/* Footer */
 .footer {
     background-color: #f4f4f4;
     padding: 20px 30px;
@@ -190,7 +191,7 @@ body {
 
 .contact-form button {
     padding: 10px;
-    background-color: #c56b6b;
+    background-color: #B9684F;
     color: white;
     border: none;
     border-radius: 5px;
@@ -202,7 +203,6 @@ body {
     background-color: #a34f4f;
 }
 
-/* Social Links */
 .social-links {
     display: flex;
     justify-content: center;
@@ -221,7 +221,6 @@ body {
     color: #c56b6b;
 }
 
-/* Footer Links */
 .footer-links {
     text-align: center;
     font-size: 14px;
