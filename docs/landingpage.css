@@ -51,6 +51,42 @@ body {
   font-size: 1rem;
   color: #333;
 }
+.search-icon {
+  display: none;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.search-icon img {
+  width: 100%;
+  height: auto;
+}
+
+.search-toggle {
+  display: none;
+}
+
+@media (max-width: 768px) {
+
+  .search-bar {
+    display: none;
+  }
+
+  .search-icon {
+    display: block;
+  }
+
+  .search-toggle:checked + .search-icon + .search-bar {
+    display: flex;
+  }
+
+  .search-bar input {
+    width: 80%;
+    max-width: 300px;
+  }
+}
 
 .nav {
   display: flex;
