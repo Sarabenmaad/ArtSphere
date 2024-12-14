@@ -407,7 +407,7 @@ body {
 
 .newsletter-btn {
   padding: 14px 30px;
-  background-color: #DCA56E;
+  background-color: #B9684F;
   border: none;
   color: white;
   border-radius: 5px;
@@ -421,8 +421,9 @@ body {
 .separator {
   width: 1px;
   height: 120px; 
-  background: #ccc;
+  background: #000000;
   margin: 0 15px; 
+  justify-content: center;
 }
 
 .contact-info {
@@ -431,7 +432,7 @@ body {
   justify-content: center;
   text-align: left;
   flex: 1;
-  color: #666;
+  color: #4B4949;
   font-size: 16px; 
   line-height: 1.5; 
 }
@@ -450,7 +451,7 @@ body {
 
 .social-icon {
   margin: 0 10px; 
-  color: #666;
+  color: #4B4949;
   font-size: 18px; 
   text-decoration: none;
 }
