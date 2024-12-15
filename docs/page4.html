@@ -5,34 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Artsphere - A propos</title>
     <link rel="stylesheet" href="page4.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://github.com/Sarabenmaad/ArtSphere.git" rel="stylesheet">
 </head>
 <body>
     <header class="header">
-        <div class="header-top">
-            <img src="images/header 2.png" alt="ArT" class="header-image">
-            <img src="images/logo.png" alt="Logo" class="logo">
+        <div class="top-header">
+            <img src="images/logo.png" alt="Artsphère Logo" class="logo">
             <div class="search-bar">
-                <input type="text" class="search-input" placeholder="Rechercher...">
-            </div>
-    </header>
+                <i class="fas fa-search search-icon"></i>
+                <label for="search" class="sr-only">Rechercher</label>
+                <input id="search" type="text" placeholder="Rechercher...">
             </div>
         </div>
-        <nav class="nav">
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Toggle navigation">
+        <label for="menu-toggle" class="hamburger">&#9776;</label>        
+        <nav class="nav" role="navigation" aria-label="Main Navigation">
             <a href="index.html">Accueil</a>
             <a href="page2.html">Artistes</a>
             <a href="page3.html">Galerie</a>
             <a href="page4.html">À propos</a>
-            <a href="#contact">Contact</a>
+            <a href="page5.html">Contact</a>
         </nav>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>À Propos d'ARTSPHERE</h1>
+                <p> Bienvenue sur ARTSPHERE, votre destination incontournable pour <br>
+                    découvrir et apprécier l'art contemporain.</p>
+            </div>
+        </section>
     </header>
-    <section class="hero">
-        <div class="hero-content">
-            <h1>À Propos d'ARTSPHERE</h1>
-            <p> Bienvenue sur ARTSPHERE, votre destination incontournable pour <br>
-                 découvrir et apprécier l'art contemporain.</p>
-        </div>
-    </section>
         </div>
         <div class="vision-rectangle">
             <div class="vision-rectangleh2 ">Notre Vision</div>

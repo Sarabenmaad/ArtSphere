@@ -9,27 +9,30 @@
 </head>
 <body>
     <header class="header">
-        <img src="images/logo.png" alt="Artsphère Logo" class="logo">
-        <div class="search-bar">
-            <i class="fas fa-search search-icon"></i>
-            <label for="search" class="sr-only">Rechercher</label>
-            <input id="search" type="text" placeholder="Rechercher...">
+        <div class="top-header">
+            <img src="images/logo.png" alt="Artsphère Logo" class="logo">
+            <div class="search-bar">
+                <i class="fas fa-search search-icon"></i>
+                <label for="search" class="sr-only">Rechercher</label>
+                <input id="search" type="text" placeholder="Rechercher...">
+            </div>
         </div>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Toggle navigation">
+        <label for="menu-toggle" class="hamburger">&#9776;</label>        
         <nav class="nav" role="navigation" aria-label="Main Navigation">
             <a href="index.html">Accueil</a>
             <a href="page2.html">Artistes</a>
             <a href="page3.html">Galerie</a>
             <a href="page4.html">À propos</a>
-            <a href="#page5.html">Contact</a>
+            <a href="#contact">Contact</a>
         </nav>
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Nos Artistes</h1>
-            <p>Découvrez notre sélection d'artistes contemporains qui repoussent les limites de la créativité et de l'expression. Chaque artiste apporte une perspective unique sur le monde qui nous entoure.</p>
-        </div>
-    </section>
-    </header>
-
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Nos Artistes</h1>
+                <p>Découvrez notre sélection d'artistes contemporains qui repoussent les limites de la créativité et de l'expression.<br> Chaque artiste apporte une perspective unique sur le monde qui nous entoure.</p>
+            </div>
+        </section>
+    </header>   
     <div class="container">
 
         <div class="artist-card">
@@ -40,6 +43,7 @@
                 <p>Lara est une artiste abstraite qui explore l'expérience humaine à travers des tableaux minimalistes. Elle utilise des lignes nettes et des teintes délicates pour créer des compositions équilibrées et sereines, révélant que la beauté réside dans la simplicité.</p>
             </div>
         </div>
+
         <div class="artist-card">
             <img src="images/zoe.png" alt="Zoe Dupont" class="artist-image">
             <div class="artist-info">
@@ -48,6 +52,7 @@
                 <p>Zoé est une artiste contemporaine, inspirée par l'urbanisme parisien et la vie quotidienne. Son art reflète une exploration des nouvelles formes d'expression, avec une approche engagée sur les questions sociales et environnementales.</p>
             </div>
         </div>
+
         <div class="artist-card">
             <img src="images/hippo.png" alt="Hippolyte Cross" class="artist-image">
             <div class="artist-info">
