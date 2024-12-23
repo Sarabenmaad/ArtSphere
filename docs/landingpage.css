@@ -571,7 +571,7 @@ body {
   justify-content: center;
   gap: 0;
   width: 100%;
-  max-width: 500px;
+  width: 553px;
   border: 1px solid #ccc;
   border-radius: 5px;
   overflow: hidden;
@@ -583,12 +583,14 @@ body {
   border: none;
   font-size: 14px;
   outline: none;
+  width: calc(553px - 125px);
 }
 
 .newsletter-btn {
   padding: 10px 20px;
   background-color: #B9684F;
   color: white;
+  width: 125px;
   border: none;
   font-size: 14px;
   cursor: pointer;
@@ -663,16 +665,19 @@ body {
   }
 
   .newsletter-box {
-    max-width: 300px;
+    max-width: 553px;
+    width: 100%;
     flex-direction: row;
   }
 
   .newsletter-input {
     font-size: 12px;
+    width: calc(100% - 125px);
   }
 
   .newsletter-btn {
     font-size: 12px;
+    width: calc(100% - 125px);
     padding: 10px 15px;
   }
 }
