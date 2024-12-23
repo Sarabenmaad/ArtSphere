@@ -650,6 +650,7 @@ body {
 .separator {
   width: 1px;
   height: 100px;
+  color: #000000;
   background: #ccc;
   margin: 0 20px;
 }
