@@ -414,7 +414,6 @@ body {
     color: #DCA56E;
   }
   
-  /* --- Responsive Adjustments --- */
   @media (max-width: 768px) {
     .footer-content {
       flex-direction: column;

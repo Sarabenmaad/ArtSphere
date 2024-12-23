@@ -630,16 +630,15 @@ body {
 }
 
 .footer-bottom {
-  text-align: center;
-  margin-top: 20px;
-  font-size: 12px;
   display: flex;
   justify-content: space-between;
   width: 100%;
   max-width: 1200px;
   padding: 0 40px;
+  font-size: 12px;
+  margin-top: 20px;
+  text-align: center;
 }
-
 .footer-bottom a {
   text-decoration: none;
   color: #666;
@@ -680,24 +679,30 @@ body {
     width: calc(100% - 125px);
     padding: 10px 15px;
   }
-}
-
-  .contact-info {
-    align-items: center;
-    text-align: center;
-  }
-
-  .social-icons {
-    justify-content: center;
-    gap: 15px;
-  }
 
   .footer-bottom {
     flex-direction: column;
     gap: 10px;
-    text-align: center;
     padding: 0;
   }
+}
+
+.contact-info {
+  align-items: center;
+  text-align: center;
+}
+
+.social-icons {
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer-bottom {
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  padding: 0;
+}
 
 
 @media (max-width: 480px) {
