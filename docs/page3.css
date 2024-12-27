@@ -18,24 +18,18 @@ body {
   height: 90vh;
   display: flex;
   flex-direction: column;
-
 }
-
 .top-header {
   display: flex;
   align-items: center;
   justify-content: space-around;
   margin-bottom: auto;
-
 }
-
 .logo {
   width: 290px;
   height: auto;
   margin-top: 50px;
 }
-
-
 .search-bar {
   flex: 1; 
   display: flex;
@@ -43,14 +37,12 @@ body {
   margin-left: 20px; 
   position: relative;
 }
-
 .search-bar .search-icon {
   position: absolute;
   left: 10px; 
   color: #888;
   font-size: 1.2rem;
 }
-
 .search-bar input {
   width: 90%; 
   padding: 0.8rem 1rem 0.8rem 2.5rem; 
@@ -60,11 +52,9 @@ body {
   color: #333;
   outline: none;
 }
-
 .search-toggle {
   display: none;
 }
-
 @media (max-width: 768px) {
 
   .search-bar {
@@ -90,23 +80,21 @@ body {
   align-items: center;
   font-size: 22px;
   color: #000;
+  margin-top: -100px;
   margin-left: 180px; 
-  margin-bottom: 20px; 
+  margin-bottom: 120px;
   z-index: 5;
   position: relative;
 }
-
 .nav a {
   font-weight: 400;
   text-decoration: none;
   color: #000000;
   transition: color 0.3s ease;
 }
-
 .nav a:hover {
   color: #c17c74;
 }
-
 .hamburger {
   display: none;
   font-size: 28px;
@@ -119,17 +107,15 @@ body {
   top: 20px;
   right: 20px;
 }
-
 .menu-toggle {
   display: none;
 }
-
 @media (max-width: 768px) {
   .nav {
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 60px;
+    top: 160px;
     right: 0;
     width: 100%;
     background-color: #fff;
@@ -407,18 +393,14 @@ body {
     gap: 20px;
   }
 }
-
 .contact-info {
   align-items: center;
   text-align: center;
 }
-
 .social-icons {
   justify-content: center;
   gap: 15px;
 }
-
-
 @media (max-width: 480px) {
   .footer-logo {
     width: 150px;
