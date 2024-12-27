@@ -84,21 +84,21 @@ body {
     max-width: 300px;
   }
 }
-
 .nav {
   display: flex;
-  position: relative;
-  justify-content:space-evenly;
-  font-size: 18px;
-  margin-left: 180px; 
-  font-size: 22px; 
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 22px;
   color: #000;
+  margin-left: 180px; 
+  margin-bottom: 20px; 
+  z-index: 5;
+  position: relative;
 }
 
 .nav a {
   font-weight: 400;
   text-decoration: none;
-  margin-top: -90px;
   color: #000000;
   transition: color 0.3s ease;
 }
@@ -112,6 +112,12 @@ body {
   font-size: 28px;
   cursor: pointer;
   color: #000;
+  z-index: 10;
+  background: transparent;
+  border: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
 }
 
 .menu-toggle {
@@ -123,21 +129,19 @@ body {
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 70px;
+    top: 60px;
     right: 0;
     width: 100%;
     background-color: #fff;
-    z-index: 10;
     padding: 1rem 0;
     border-top: 1px solid #ddd;
+    z-index: 10;
   }
 
   .nav a {
     padding: 1rem;
     text-align: center;
     font-size: 18px;
-    text-decoration: none;
-    color: #000;
     border-bottom: 1px solid #ddd;
   }
 
@@ -145,16 +149,12 @@ body {
     background-color: #f4f4f4;
   }
 
-  .hamburger {
-    display: block;
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    z-index: 20;
-  }
-
   .menu-toggle:checked + .hamburger + .nav {
     display: flex;
+  }
+
+  .hamburger {
+    display: block;
   }
 }
 .hero-content {
