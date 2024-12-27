@@ -18,14 +18,14 @@ body {
   height: 90vh;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
 }
 .top-header {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: space-around;
-  margin-bottom: auto;
+  padding: 10px 20px;
 }
+
 .logo {
   width: 290px;
   height: auto;
@@ -96,14 +96,14 @@ body {
 }
 .nav {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  font-size: 22px;
-  color: #000;
-  margin-left: 180px; 
-  margin-bottom: 20px; 
-  z-index: 5;
-  position: relative;
+  margin: 0;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
 }
 .nav a {
   font-weight: 400;
