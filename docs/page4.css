@@ -208,27 +208,26 @@ body {
 
 .mission-section {
     display: flex;
-    flex-wrap: wrap;
-    gap: 5rem;
+    gap: 8rem;
     align-items: center;
     flex-direction: row-reverse;
+    margin-top: 80px;
 }
 
 .mission-section .text-container {
     max-width: 900px;
     overflow: hidden;
+    margin-top: 30px;
 }
 
 .mission-section .text-container h2 {
-    position: relative;
     background-color: #f0e6de;
-    padding: 10px 30px;
-    border-radius: 0 50px 50px 0;
-    margin-bottom: 20px;
+    padding: 20px 80px;
+    margin-bottom: 50px;
     font-size: 2rem;
     color: #AC8361;
     text-align: left;
-    width: calc(100% + 30px);
+    flex-direction: row-reverse;
     max-width: 100vw; 
     transform: translateX(-30px);
     box-sizing: border-box;
@@ -236,38 +235,16 @@ body {
 }
 
 @media (max-width: 768px) {
-    .mission-section {
-        flex-direction: column;
-        align-items: center;
-        padding: 0 10px;
-    }
-
-    .mission-section .text-container h2 {
-        text-align: center;
-        padding: 10px 20px;
-        border-radius: 20px;
-        margin-bottom: 10px;
-        transform: none;
-    }
-
     .mission-image {
         order: -1;
         width: 100%;
         margin-bottom: 20px;
     }
-
-    .mission-image img {
-        width: 100%;
-        height: auto;
-        border-radius: 20px;
-        object-fit: cover; 
-    }
 }
 
 .vision-section {
     display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
+    gap: 8rem;
     align-items: center;
     justify-content: flex-start; 
     flex-direction: row; 
@@ -278,9 +255,9 @@ body {
 .vision-section .text-container h2 {
     position: relative;
     background-color: #f0e6de;
-    padding: 10px 30px;
+    padding: 20px 80px;
     border-radius: 0 50px 50px 0;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     font-size: 2rem;
     color: #AC8361;
     text-align: right;
@@ -292,24 +269,28 @@ body {
 .texte-vision{
     color: #000;
     text-align: justify;
-    font-size: 1.6rem;
+    font-size: 29px;
     font-weight: 400;
     line-height: 1.25;
     letter-spacing: -1.74px;
+    max-width: 120%;
+    margin-left: 75px;
+    padding: 0 10px;
 }
 
 .texte-mission{
     color: #000;
     text-align: justify;
-    font-size: 1.6rem;
+    font-size: 29px;
     font-weight: 400;
     line-height: 1.25;
     letter-spacing: -1.74px;
-    width: 646px;
+    margin-right: 120px;
 }
 
 .vision-image{
     flex: 1;
+    margin-right: -170px;
 }
 
 .mission-section:nth-child(2) .text-container h2 {
@@ -326,7 +307,7 @@ body {
     object-fit: cover;
 }
 .mission-image img {
-    width: 70%; 
+    width: 90%; 
     max-width: 400px; 
     border-radius: 20px;
     object-fit: cover;
@@ -337,33 +318,40 @@ body {
     .mission-section {
         flex-direction: column;
         align-items: center;
+        gap: 30px;
+        text-align: center;
+        padding-left: 20px;
     }
 
     .vision-image, .mission-image {
         order: -1;
-        width: 50%;
+        width: 55%;
     }
 
-    .vision-image img, .mission-image img {
-        width: 100%;
-        height: auto;
+    .texte-vision,
+    .texte-mission {
+        text-align: justify;
+        font-size: 1.2rem;
+        line-height: 125%;
+        margin: 20px 20px;
+        letter-spacing: -0.9px;
+        margin-bottom: 40px;
     }
 
     .vision-section .text-container h2,
     .mission-section .text-container h2 {
-        width: 100%; 
-        transform: none; 
-        text-align: center;
-        border-radius: 20px; 
-        padding: 10px 20px;
+        width: auto;
+        margin: 0 auto;
+        padding: 15px 20px;
     }
-
-    .vision-image img, .mission-image img {
-        width: 100%;
+    .vision-image img,
+    .mission-image img {
+        width: 90%;
+        max-width: 300px;
         height: auto;
-        object-fit: cover;
-        margin-bottom: 20px;
-    }
+        border-radius: 20px;
+        margin: 10px 0;
+}
 }
 
 .offer-section {
