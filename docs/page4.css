@@ -11,7 +11,7 @@ body {
 }
 .header {
     position: relative;
-    background-image: url('images/header2.png');
+    background-image: url('images/header2.webp');
     background-size: cover;
     background-position: center;
     color: #fff;
