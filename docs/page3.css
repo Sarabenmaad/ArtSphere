@@ -204,8 +204,7 @@ body {
 .filter.active {
   color: #ffffff;
   background-color: #c17c74;
-  border-color: #c17c74;
-}*/
+}
 
 .gallery {
   padding: 20px;
@@ -243,10 +242,11 @@ body {
   font-weight: 700;
   color: #c56b6b;
 }
-
 .footer {
   background: #F0EBE4;
   display: flex;
+  margin-top: auto;
+  width: 100%;
   flex-direction: column;
   align-items: center;
   border-top: 1px solid #eee;
@@ -259,7 +259,7 @@ body {
 }
 
 .footer-logo {
-  width: 200px;
+  width: 150px;
   height: auto;
 }
 
@@ -316,11 +316,6 @@ body {
   text-align: left;
 }
 
-.contact-info p {
-  margin: 5px 0;
-  font-size: 14px;
-}
-
 .social-icons {
   display: flex;
   justify-content: space-between;
@@ -341,9 +336,10 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  flex-wrap: nowrap; 
+  flex-wrap: nowrap;
+  gap: 30rem;
   padding: 10px 0;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .footer-bottom a {
@@ -366,72 +362,53 @@ body {
 
 @media (max-width: 768px) {
   .footer-content {
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
   }
 
   .newsletter-box {
-    max-width: 553px;
-    width: 100%;
-    flex-direction: row;
+      max-width: 553px;
+      width: 100%;
+      flex-direction: row;
   }
 
   .newsletter-input {
-    font-size: 12px;
-    width: calc(100% - 125px);
+      font-size: 12px;
+      width: calc(100% - 125px);
   }
 
   .newsletter-btn {
-    font-size: 12px;
-    width: calc(100% - 125px);
-    padding: 10px 15px;
+      font-size: 12px;
+      width: calc(100% - 125px);
+      padding: 10px 15px;
   }
 
   .footer-bottom {
-    justify-content: center; 
-    gap: 20px;
+      justify-content: center;
+      gap: 20px;
   }
 }
-.contact-info {
-  align-items: center;
-  text-align: center;
-}
-.social-icons {
-  justify-content: center;
-  gap: 15px;
-}
+
 @media (max-width: 480px) {
   .footer-logo {
-    width: 150px;
+      width: 150px;
   }
 
   .newsletter-input {
-    font-size: 14px;
-    padding: 8px;
+      font-size: 14px;
+      padding: 8px;
   }
 
   .newsletter-btn {
-    padding: 8px 15px;
+      padding: 8px 15px;
   }
 
   .contact-info {
-    font-size: 14px;
+      font-size: 14px;
   }
 
   .footer-bottom {
-    font-size: 12px;
-  }
-}
-
-@media (max-width: 768px) {
-  .nav {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-  }
-
-  .gallery-row {
-    grid-template-columns: 1fr;
+      font-size: 12px;
   }
 }

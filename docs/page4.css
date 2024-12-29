@@ -492,7 +492,6 @@ body {
     align-items: flex-start;
     width: 100%;
     max-width: 1200px;
-    padding: 0 40px;
     gap: 20px;
 }
 
@@ -591,9 +590,9 @@ body {
     }
 
     .newsletter-box {
-        max-width: 553px;
-        width: 100%;
         flex-direction: row;
+        max-width: 335px;
+        max-height: 27px;
     }
 
     .newsletter-input {
@@ -607,24 +606,45 @@ body {
         padding: 10px 15px;
     }
 
+    .separator {
+        order: 2;
+        width: 1px;
+        height: 50px;
+        background-color: #ccc;
+        margin: 0 10px;
+    }
+    .contact-info {
+        order: 1;
+    }
+
+    .social-icons {
+        order: 3;
+    }
     .footer-bottom {
+        display: flex;
+        flex-direction: row;
         justify-content: center;
+        align-items: center;
         gap: 20px;
+        order: 4;
     }
 }
 
 @media (max-width: 480px) {
     .footer-logo {
-        width: 150px;
+        width: 60%;
+        margin-bottom: -100px;
+        margin-top: -20px;
     }
 
     .newsletter-input {
-        font-size: 14px;
+        font-size: 8px;
         padding: 8px;
     }
 
     .newsletter-btn {
         padding: 8px 15px;
+        width: 20%;
     }
 
     .contact-info {
