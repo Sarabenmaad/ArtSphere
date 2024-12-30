@@ -64,6 +64,9 @@ body {
 }
 
 @media (max-width: 768px) {
+  .header {
+    height: 20vh;
+  }
 
   .search-bar {
     display: none;
@@ -382,7 +385,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: nowrap;
-    gap: 30rem;
+    gap: 16rem;
     padding: 10px 0;
     font-size: 16px;
 }
